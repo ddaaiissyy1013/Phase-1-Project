@@ -1,1 +1,56 @@
-
+body {
+    font-family: Monaco, sans-serif;
+    padding: 80px;
+    background-image: url("https://i.pinimg.com/1200x/1c/f2/35/1cf235ba8f753047d14d5d7b135bf707.jpg");
+    
+  }
+  
+  header {
+    background-color:#f6bed3;
+    padding: 20px;
+    margin-bottom: 20px;
+    font-size: 60px;
+  }
+  
+  h1, h2 {
+    color: #fdfbfd;
+    
+  }
+  
+  button {
+    padding: 75px;
+    margin: 20px;
+    color: #f9f9f9;
+    background-color: #f9a5b5;
+    border: palevioletred;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 40px;
+    
+  }
+  
+  button:hover {
+    background-color:#a0d4f0 ;
+  }
+  
+  button:active {
+    background-color: #e625d0;
+  }
+  
+  select {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #a0a0a0;
+    background-color: #fff;
+    cursor: pointer;
+  }
+  
+  .product {
+    border: 1px solid #f8f6f6;
+    padding: 0px;
+    margin: 60px 0;
+  }
+  
+  .product:hover {
+    border-color: #e1e4e8;
+  }
